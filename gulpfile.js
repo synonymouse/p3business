@@ -6,7 +6,7 @@ var neat = require("node-neat").includePaths;
 var reload = browserSync.reload;
 
 var src = {
-   scss: 'src/scss/*.scss',
+   scss: 'src/scss/*.sass',
    css:  'src/css',
    html: 'src/*.html'
 };
@@ -30,7 +30,7 @@ gulp.task("sass", function() {
 gulp.task('serve', ['sass'], function() {
  browserSync({
    server: {
-     baseDir: 'dist'
+     baseDir: 'src'
    }
  });
 
