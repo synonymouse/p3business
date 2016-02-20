@@ -6,7 +6,7 @@ var neat = require("node-neat").includePaths;
 var reload = browserSync.reload;
 
 var src = {
-   scss: 'src/scss/*.sass',
+   scss: 'src/scss/*.scss',
    css:  'src/css',
    html: 'src/*.html'
 };

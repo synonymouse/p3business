@@ -1,0 +1,25 @@
+@import 'bourbon';
+@import 'grid-settings';
+@import 'variables';
+@import 'layout';
+@import 'neat';
+
+.logo {
+  @include size(em(50px));
+  @include clearfix;
+  background-image: url(../images/Shape-8.png);
+  float: left;
+}
+
+.nav {
+  float: right;
+}
+
+.hero-one {
+  background-color: #709dca;
+  text-align: center;
+}
+
+#ftext {
+  background-image: 'url(../images/icon_name.png)';
+}

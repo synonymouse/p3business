@@ -1,0 +1,13 @@
+.wrapper {
+  @include outer-container(64em);
+  padding: em(22px) 0 em(22px) 0;
+}
+
+.hero-one {
+  height: em(589px);
+}
+
+.hero-one-content {
+  @include outer-container(64em);
+  padding-top: em(110px);
+}
