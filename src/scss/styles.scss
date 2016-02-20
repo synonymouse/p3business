@@ -3,7 +3,6 @@
 @import 'variables';
 @import 'layout';
 @import 'neat';
-
 .logo {
   @include size(em(50px));
   @include clearfix;
